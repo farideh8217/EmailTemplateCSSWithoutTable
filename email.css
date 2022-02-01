@@ -1,5 +1,7 @@
 .container{
-    width: 600px;
+    max-width:620px;
+    height: auto;
+    background-color: #f6f9fc;
 }
 
 .logoabi{
@@ -13,20 +15,79 @@
 }
 .soton{
     margin:30px 0;
+    width: 620px;
+    min-height: 150px;
+    background-color: #f6f9fc;
+    overflow: hidden;
 }
-
 .sotonaval{
-    display: inline-block;
-    margin:10px;
+    width: 29%;
+    min-height:150px;
+    background-color:#f6f9fc;
     float: left;
+    margin: 12px;
+    align-content: center;
 }
 .sotondovom{
-    display: inline-block;
-    margin: 10px;
+    width: 29.5%;
+    min-height:150px;
+    background-color: #f6f9fc;
     float: left;
+    margin:12px;
+    align-content: center;
 }
-.sotosevom{
-    display: inline-block;
-    margin: 5px;
-    
+.sotonsevom{
+    width: 29.5%;
+    min-height:150px;
+    background-color: #f6f9fc;
+    float: left;
+    margin: 12px;
+    align-content: center;
+}
+.sotonaval img{
+    width:150px;
+    margin: 10px;
+}
+.sotondovom img{
+    width:150px;
+    margin: 10px;
+}
+.sotonsevom img{
+    width:150px;
+    margin: 10px;
+}
+.sotonaval .text1{
+    width:150px;
+    margin: 10px;
+}
+.sotondovom .text2{
+    width:150px;
+    margin: 10px;
+}
+.sotonsevom .text3{
+    width:150px;
+    margin: 10px;
+}
+.logoabi2{
+    width:600px;
+    background-color:#388cda;
+    text-align:center;
+    padding:10px;
+}
+.logoabi2 img{
+    width: 30px;
+}
+.logoabi2 p{
+    color:#fff;
+    font-weight:bold;
+}
+.footer{
+    width:600px;
+    background-color:#f6f9fc;
+    text-align:center;
+    padding:10px;
+    line-height:20px;
+}
+.footer a{
+    text-decoration: none;
 }
